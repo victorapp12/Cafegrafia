@@ -1,0 +1,16 @@
+{
+ "name": "ahab-theme",
+ "version": "1.0.0",
+ "description": "Tema Ahab",
+ "dependencies": {
+   "gulp": "*",
+   "gulp-sass": "*",
+   "gulp-concat": "*",
+   "gulp-minify-css": "*",
+   "gulp-rename": "*"
+ },
+ "devDependencies": {
+   "gulp-util": "*",
+   "shelljs": "*"
+ }
+}
