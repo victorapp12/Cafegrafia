@@ -1,0 +1,85 @@
+.posts {
+    width: 620px;
+    float: left;
+    .area-post {
+        img#pr {
+            width: 100%;
+        }
+    }
+    .slider {
+        ul {
+            li {
+                position: relative;
+                margin-bottom: 30px;
+                .desc-slide {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    background: $corPrincipal2_70;
+                    color: #d5d4d7;
+                    font-weight: 500;
+                    padding: 20px;
+                    h3 {
+                        font-size: 24px;
+                    }
+                    h4 {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .post {
+        ul {
+            li {
+                position: relative;
+                padding-bottom: 60px;
+                border-bottom: 1px solid #e0e0e0;
+                margin-bottom: 30px;
+                .desc-slide {
+                    position: absolute;
+                    background: $corPrincipal2_70;
+                    color: #d5d4d7;
+                    top: 0;
+                    width: 100%;
+                    padding: 15px;
+                    font-size: 20px;
+                }
+                .desc-post {
+                    margin-top: 10px;
+                    h2 {
+                        color: $corConteudo1;
+                        font-size: 24px;
+                    }
+                    label {
+                        text-transform: uppercase;
+                        color: $corConteudo1;
+                        span {
+                            color: $corPrincipal1;
+                        }
+                    }
+                    article {
+                        margin-top: 10px;
+                        p {
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: $corConteudo1;
+                        }
+                    }
+                    #leiaMais {
+                        float: right;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: $corConteudo1;
+                        span {
+                            color: $corPrincipal1;
+                        }
+                    }
+                }
+            }
+            li:last-child{
+                border: none;
+            }
+        }
+    }
+}

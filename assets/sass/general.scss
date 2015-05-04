@@ -1,3 +1,47 @@
+html,
 body {
+    height: 100%;
     background: $corBg;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#tudo {
+    min-height: 100%;
+    position: relative;
+}
+
+* html #tudo {
+    height: 100%;
+}
+
+#conteudo {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.campos {
+    border: none;
+    border-radius: 20px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #c0c0c0;
+    font-weight: 200;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}
+
+.row{
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: none;
 }

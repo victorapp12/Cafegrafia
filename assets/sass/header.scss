@@ -1,0 +1,38 @@
+#navbar {
+    background: #fff;
+    margin-top: 50px;
+    padding-left: 0;
+    .nav {
+        li {
+            a {
+                font-size: 16px;
+                font-weight: 400;
+                color: $corPrincipal2;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            a:hover {
+                color: $corPrincipal1;
+                background-color: transparent;
+            }
+        }
+        #item-busca {
+            label {
+                position: relative;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 20px;
+                .campos {
+                    background: $corBg;
+                    width: 280px;
+                    height: 32px;
+                }
+                a {
+                    position: absolute;
+                    right: 35px;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
