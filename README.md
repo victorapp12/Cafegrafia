@@ -26,8 +26,8 @@ cafegrafia
 │   │   └── jquery.min.js
 │   │
 │   └── sass/
-│       ├── _bootstrap-sprockets.scss
-│       ├── _bootstrap.scss
+│       ├── interna.scss
+│       ├── vejaTambem.scss
 │       ├── bootstrap
 │       ├── footer.scss
 │       ├── general.scss
@@ -40,6 +40,8 @@ cafegrafia
 ├── footer.php
 ├── header.php
 ├── index.php
+├── interna.php
+├── vejaTambem.php
 └── README.md
 
 ```
