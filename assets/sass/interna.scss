@@ -1,0 +1,19 @@
+.header-materia {
+    margin-bottom: 20px;
+    h2 {
+        color: $corConteudo1;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    label {
+        text-transform: uppercase;
+        color: $corConteudo1;
+        span {
+            color: $corPrincipal1;
+        }
+    }
+    img{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}

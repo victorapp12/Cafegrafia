@@ -3,6 +3,8 @@ body {
     height: 100%;
     background: $corBg;
     font-family: 'Fira Sans', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 #tudo {
@@ -30,18 +32,42 @@ body {
     font-weight: 200;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
-    li{
+    li {
         list-style: none;
     }
 }
 
-.row{
+.row {
     margin: 0;
 }
 
-a:hover{
+a{
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
 }

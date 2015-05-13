@@ -73,10 +73,6 @@
            <div class="fb-follow" data-href="https://www.facebook.com/zuck" data-width="300px" data-height="200px" data-colorscheme="light" data-layout="standard" data-show-faces="true"></div>
         </section>
 
-
-
-
-
     </div>
 
 </div>

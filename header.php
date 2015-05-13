@@ -37,7 +37,7 @@
 
                 <nav class="navbar">
 
-                    <div id="navbar" class="navbar-collapse">
+                    <div id="navbar" class="navbar-collapse clearfix">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#">Home</a>
                             </li>

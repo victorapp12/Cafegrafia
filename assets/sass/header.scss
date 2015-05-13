@@ -2,14 +2,20 @@
     background: #fff;
     margin-top: 50px;
     padding-left: 0;
+    height: 80px;
     .nav {
+        float: left;
+        height: 100%;
         li {
+            padding: 24px;
+            display: inline-block;
             a {
                 font-size: 16px;
                 font-weight: 400;
                 color: $corPrincipal2;
                 padding-top: 30px;
                 padding-bottom: 30px;
+                text-decoration: none;
             }
             a:hover {
                 color: $corPrincipal1;
@@ -29,10 +35,14 @@
                 }
                 a {
                     position: absolute;
-                    right: 35px;
-                    top: 0;
+                    right: 16px;
+                    top: -5px;
                 }
             }
         }
     }
+}
+
+.navbar-right {
+    float: right !important;
 }
